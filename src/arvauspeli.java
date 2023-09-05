@@ -21,6 +21,10 @@ public class arvauspeli {
 		} while (!name.equals(answer));
 		
 		
+		// Tulostukset oikeasta vastauksesta
+		System.out.println("Congratulations! My name is Kaisu.");
+		
+		
 
 	}
 
