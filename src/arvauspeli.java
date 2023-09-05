@@ -8,6 +8,7 @@ public class arvauspeli {
 		// Luodaan muuttujat
 		String name = "Kaisu";
 		String answer = "";
+		int counter = 0;
 		
 		do
 		{
@@ -17,13 +18,14 @@ public class arvauspeli {
 			// Muutetaan nimet pieniksi kirjaimiksi, niin arvailu on helpompaa
 			name = name.toLowerCase();
 			answer = answer.toLowerCase(); 
+			counter ++;
 		
 		} while (!name.equals(answer));
 		
 		
 		// Tulostukset oikeasta vastauksesta
 		System.out.println("Congratulations! My name is Kaisu.");
-		
+		System.out.println("You guessed " + counter + " times.");
 		
 
 	}
